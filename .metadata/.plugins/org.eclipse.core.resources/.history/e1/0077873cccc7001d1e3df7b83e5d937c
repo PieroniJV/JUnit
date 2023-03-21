@@ -1,0 +1,25 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MatrixTest {
+
+	@Test
+	public void testAdd() {
+		fail("Not yet implemented");
+	}
+	
+	@Test
+	public void testSubtract() {
+		fail("Not yet implemented");
+	}
+	
+	@Test
+	public void testEqualsObject() {
+		Matrix m1 = new Matrix(1);
+		Matrix m2 = new Matrix(1);
+		
+		assertEquals(m1, m2);
+	}
+
+}

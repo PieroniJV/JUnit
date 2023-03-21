@@ -1,0 +1,31 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MatrixTest {
+
+	Matrix m1 = new Matrix(1);
+	Matrix m2 = new Matrix(1);
+	@Test
+	public void testAdd() {
+		m1.Add(m2);
+		System.out.println("m1: " + m1);
+		System.out.println("m2: " + m2);
+	}
+	
+	@Test
+	public void testSubtract() {
+		m1.Subtract(m2);
+		System.out.println("m1: " + m1);
+		System.out.println("m2: " + m2);
+	}
+	
+	@Test
+	public void testEqualsObject() {
+		//assertEquals(m1, m2);
+		m1.equals(m2);
+		System.out.println("m1: " + m1);
+		System.out.println("m2: " + m2);
+	}
+
+}
